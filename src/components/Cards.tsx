@@ -9,33 +9,29 @@ export function Cards() {
 }
 export const projects = [
   {
-    title: "Stripe",
+    title: "JEE Advanced",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "Achieved a rank of 2590 among 1.6 Lakhs+ shortlisted candidates in Joint Entrance Exam Advanced, 2022.",
   },
   {
-    title: "Netflix",
+    title: "Codeforces",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "Achieved a peak rating of 1465 with Specialist rank on Codeforces, a competitive programming platform and solved many questions on it.",
   },
   {
-    title: "Google",
+    title: "Mathematics Olympiad",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+      "Qualified Pre-Regional Mathematics Olympiad (PRMO) in 2019 and appeared in the Regional Mathematics Olympiad (RMO, Bihar), 2019.",
   },
   {
-    title: "Meta",
+    title: "Reached Finals of CodeNight",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+      "Reached finals of CodeNight 2024,national-level competition with 500+ teams, organized by Kshitij (Tech Fest), IIT Kharagpur.",
   },
   {
-    title: "Amazon",
+    title: "Codechef",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+      "Achieved a peak rating of 1726 with 3-Star rank on Codechef, a competitive programming platform and secured a Global Rank of 215 and 311 in Codechef Starters 115 and123 among 26000+ candidates..",
   },
-  {
-    title: "Microsoft",
-    description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-  },
+
 ];

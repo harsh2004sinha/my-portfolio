@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 function Footer() {
     return (
-        <div className='flex flex-col items-center justify-center text-slate-100 pb-32 pl-32 pr-32 pt-20 font-sans'>
+        <section id='contact' className='flex flex-col items-center justify-center text-slate-100 pb-32 pl-32 pr-32 pt-20 font-sans'>
             <p className='text-5xl text-center font-bold'>
                 Interested in <span className='text-red-500'>collaborating</span> <br /> or have a project in mind?
             </p>
@@ -30,7 +30,7 @@ function Footer() {
                 </div>
             </div>
 
-        </div>
+        </section>
     );
 }
 

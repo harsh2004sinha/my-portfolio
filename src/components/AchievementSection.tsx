@@ -11,7 +11,7 @@ import Link from 'next/link'
 
 function AchievementSection() {
     return (
-        <div className='flex flex-col items-center justify-center text-slate-100 p-32 font-sans'>
+        <section id='achievement' className='flex flex-col items-center justify-center text-slate-100 pb-32 pr-32 pl-32 font-sans'>
             <p className='text-5xl font-bold'>
                 My <span className='text-red-500'>Achievements</span> and <span className='text-red-500'>Coding Profiles</span>
             </p>
@@ -41,7 +41,7 @@ function AchievementSection() {
                 </p>
                 </Link>
             </div>
-        </div>
+        </section>
     )
 }
 

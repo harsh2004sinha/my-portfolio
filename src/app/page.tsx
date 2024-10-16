@@ -1,5 +1,6 @@
 import AchievementSection from "@/components/AchievementSection";
 import Footer from "@/components/Footer";
+import Projects from "@/components/Projects";
 import { TextGenerateEffectDemo } from "@/components/TextGenerate";
 import { Spotlight } from "@/components/ui/spotlight";
 import { WobbleCardDemo } from "@/components/WobbleCard";
@@ -11,6 +12,7 @@ export default function Home() {
       <Spotlight className="right-60" fill="blue"/>
       <TextGenerateEffectDemo/>
       <WobbleCardDemo/>
+      <Projects/> 
       <AchievementSection/>
       <Footer/>
     </div>

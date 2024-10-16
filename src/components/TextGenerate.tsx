@@ -5,7 +5,7 @@ import pic from "@/images/Image.jpeg";
 import { MovingBorderDemo } from "./MovingBorder";
 
 const w1 = `Hi! I'm Harsh Sinha, a Full Stack Web Developer...`;
-const w2 = `Mastering Competitive Algorithms and Web Development`
+const w2 = `Mastering Competitive Algorithms and Web Development`;
 
 export function TextGenerateEffectDemo() {
   return (

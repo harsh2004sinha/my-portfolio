@@ -6,7 +6,7 @@ import { GlobeDemo } from "./Globe";
 
 export function WobbleCardDemo() {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-16 bg-slate-950 font-comic">
+        <section id="about" className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-16 bg-slate-950 font-comic">
             <WobbleCard
                 containerClassName="col-span-1 lg:col-span-2 h-80 bg-pink-700 min-h-[400px] lg:min-h-[250px] p-4"
                 className="flex justify-between"
@@ -75,8 +75,6 @@ export function WobbleCardDemo() {
                     className="absolute -right-10 md:-right-[40%] lg:-right-[20%] -bottom-10 object-contain rounded-2xl"
                 />
             </WobbleCard>
-
-
-        </div>
+        </section>
     );
 }
