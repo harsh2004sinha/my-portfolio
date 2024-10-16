@@ -1,3 +1,4 @@
+import AchievementSection from "@/components/AchievementSection";
 import Footer from "@/components/Footer";
 import { TextGenerateEffectDemo } from "@/components/TextGenerate";
 import { Spotlight } from "@/components/ui/spotlight";
@@ -10,6 +11,7 @@ export default function Home() {
       <Spotlight className="right-60" fill="blue"/>
       <TextGenerateEffectDemo/>
       <WobbleCardDemo/>
+      <AchievementSection/>
       <Footer/>
     </div>
   );
