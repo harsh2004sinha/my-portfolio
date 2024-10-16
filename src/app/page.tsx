@@ -1,4 +1,4 @@
-import { FeaturesSectionDemo } from "@/components/FeatureSection";
+import Footer from "@/components/Footer";
 import { TextGenerateEffectDemo } from "@/components/TextGenerate";
 import { Spotlight } from "@/components/ui/spotlight";
 import { WobbleCardDemo } from "@/components/WobbleCard";
@@ -10,7 +10,7 @@ export default function Home() {
       <Spotlight className="right-60" fill="blue"/>
       <TextGenerateEffectDemo/>
       <WobbleCardDemo/>
-      <FeaturesSectionDemo/>
+      <Footer/>
     </div>
   );
 }
