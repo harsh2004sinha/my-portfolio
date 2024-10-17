@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { Cards } from './Cards'
+import { Cards } from '../components/Cards'
 import Image from 'next/image'
 import Codeforces from '@/images/code-forces.svg'
 import Leetcode from '@/images/leetcode.svg'

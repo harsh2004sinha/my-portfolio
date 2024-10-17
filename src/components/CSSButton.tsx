@@ -3,6 +3,7 @@ import React from "react";
 import { Toaster } from "sonner";
 import { ButtonsCard } from "./ui/tailwindcss-buttons";
 import { SiMinutemailer } from "react-icons/si";
+import Link from "next/link";
 
 export function TailwindcssButtons() {
   return (
@@ -25,10 +26,12 @@ export const buttons = [
     component: (
       <button className="p-[3px] relative">
         <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-purple-500 rounded-lg" />
+        <Link href={'mailto:harsh2004sinha@gmail.com'}>
         <div className="px-8 py-2 flex justify-center items-center gap-5 bg-slate-950 rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
             Let's Get in Touch
             <SiMinutemailer className="m-1"/>
         </div>
+        </Link>
       </button>
     ),
   },

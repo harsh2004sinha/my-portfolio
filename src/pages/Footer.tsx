@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import { TailwindcssButtons } from './CSSButton';
+import { TailwindcssButtons } from '../components/CSSButton';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
