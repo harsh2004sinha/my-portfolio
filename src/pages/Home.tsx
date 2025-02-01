@@ -7,7 +7,7 @@ import { MovingBorderDemo } from "../components/MovingBorder";
 const w1 = `Hi! I'm Harsh Sinha, a Full Stack Web Developer...`;
 const w2 = `Mastering Competitive Algorithms and Web Development`;
 
-export function About() {
+function About() {
   return (
     <section className="p-10 flex justify-center">
       <div className="p-10 pl-40 pt-32">
@@ -21,3 +21,5 @@ export function About() {
     </section>
   )
 }
+
+export default About

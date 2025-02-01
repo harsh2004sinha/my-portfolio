@@ -11,7 +11,6 @@
   "engines": {
     "node": "20.x"
   },
-
   "dependencies": {
     "@react-three/drei": "^9.114.4",
     "@react-three/fiber": "^8.17.10",
@@ -24,6 +23,7 @@
     "react-dom": "^18",
     "react-element-to-jsx-string": "^15.0.0",
     "react-icons": "^5.3.0",
+    "sharp": "^0.33.5",
     "simplex-noise": "^4.0.3",
     "sonner": "^1.5.0",
     "tailwind-merge": "^2.5.4",

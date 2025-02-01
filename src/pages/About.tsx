@@ -4,7 +4,7 @@ import React from "react";
 import { WobbleCard } from "../components/ui/wobble-card";
 import { GlobeDemo } from "../components/Globe";
 
-export function WobbleCardDemo() {
+function AboutMe() {
     return (
         <section id="about" className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full mt-16 bg-slate-950 font-comic">
             <WobbleCard
@@ -78,3 +78,6 @@ export function WobbleCardDemo() {
         </section>
     );
 }
+
+
+export default AboutMe

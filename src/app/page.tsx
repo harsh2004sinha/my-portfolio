@@ -1,9 +1,9 @@
 import AchievementSection from "@/pages/AchievementSection";
 import Footer from "@/pages/Footer";
 import Projects from "@/pages/Projects";
-import { About } from "@/pages/Home";
+import About from "@/pages/Home";
 import { Spotlight } from "@/components/ui/spotlight";
-import { WobbleCardDemo } from "@/pages/About";
+import AboutMe from "@/pages/About";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <Spotlight className="left-96" fill="violet"/>
       <Spotlight className="right-60" fill="blue"/>
       <About/>
-      <WobbleCardDemo/>
+      <AboutMe/>
       <Projects/> 
       <AchievementSection/>
       <Footer/>
