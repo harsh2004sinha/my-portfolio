@@ -16,7 +16,7 @@ export const projects = [
   {
     title: "Codeforces",
     description:
-      "Achieved a peak rating of 1465 with Specialist rank on Codeforces, a competitive programming platform and solved many questions on it.",
+      "Achieved a rating of 1600+ with Expert rank on Codeforces, a competitive programming platform and solved many questions on it.",
   },
   {
     title: "Mathematics Olympiad",
@@ -31,7 +31,7 @@ export const projects = [
   {
     title: "Codechef",
     description:
-      "Achieved a peak rating of 1726 with 3-Star rank on Codechef, a competitive programming platform and secured a Global Rank of 215 and 311 in Codechef Starters 115 and123 among 26000+ candidates..",
+      "Achieved a rating of 1700+ with 3-Star rank on Codechef, a competitive programming platform and secured a Global Rank of 215 and 311 in Codechef Starters 115 and123 among 26000+ candidates..",
   },
 
 ];
